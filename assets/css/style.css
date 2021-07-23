@@ -1,0 +1,72 @@
+*{
+    scroll-behavior: smooth;
+}
+body{
+    min-height: 100vh;
+    background: linear-gradient(#2b1055,#7597de);
+    overflow-x: hidden;
+}
+.top-header{
+    position: relative;
+    width: 100%;
+    height: 100vh; 
+    padding: 100px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.top-header::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top,#1c0522,transparent);
+    z-index: 10000;
+}
+.top-header img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+.top-header img#moon{
+    mix-blend-mode: screen;
+}
+#mountains_front{
+    z-index: 10;
+}
+#header_text{
+    position: absolute;
+    color: #fff;
+    white-space: nowrap;
+    font-size: 7.5vw;
+    z-index: 9;
+    transform: translateY(0px);
+    right: -350px;
+}
+.btn{
+    z-index: 9; 
+    transform: translateY(80px); 
+}
+.para-sec{
+    padding: 100px;
+    position: relative;
+    padding: 100px;
+    background: #1c0522;
+}
+.para-sec h2{
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    color: #fff;
+}
+.para-sec p{
+    font-size: 1em;
+    margin-bottom: 10px; 
+    color: #fff;
+}
