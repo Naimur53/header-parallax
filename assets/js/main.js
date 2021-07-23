@@ -1,5 +1,5 @@
 function myFunction() {
-    document.getElementById("loaded").style.display = "block";
+    document.querySelector("body").style.opacity = "1";
     console.log("done");
 }
 let stars = document.getElementById("stars");
