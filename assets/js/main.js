@@ -1,3 +1,7 @@
+function myFunction() {
+    document.getElementById("loaded").style.display = "block";
+    console.log("done");
+}
 let stars = document.getElementById("stars");
 let moon = document.getElementById("moon");
 let mountains_behind = document.getElementById("mountains_behind");
@@ -15,7 +19,3 @@ window.addEventListener("scroll", function () {
     header_text.style.marginTop = value * 1.5 + "px";
     btn.style.marginTop = value * 1.5 + "px";
 })
-
-function loads() {
-    document.getElementById("load").style.display = "none";
-}
