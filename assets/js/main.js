@@ -15,3 +15,7 @@ window.addEventListener("scroll", function () {
     header_text.style.marginTop = value * 1.5 + "px";
     btn.style.marginTop = value * 1.5 + "px";
 })
+
+function loads() {
+    document.getElementById("load").style.display = "none";
+}
