@@ -55,7 +55,7 @@ body{
     white-space: nowrap;
     font-size: 7.5vw;
     z-index: 9;
-    transform: translateY(0px);
+    transform: translateY(-50px);
     right: -350px;
 }
 .btn{
